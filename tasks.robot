@@ -60,7 +60,7 @@ Ask day from assistant and store input as variable
     Add heading    I need to know todays date (only date). Can you answer for that?
     Add text input    What is The Date Today? 
     ...    label=Date
-    ...    placeholder=Excaple: 15
+    ...    placeholder=Example: 15
     ...    rows=1
     ${result}=    Run dialog    height=400    width=400
     Log    ${result}
